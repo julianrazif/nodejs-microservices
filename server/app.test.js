@@ -4,7 +4,7 @@ const app = require('./app')
 const agent = supertest(app)
 
 describe('Test App functionality', () => {
-  test('Should fail when request page', async (done) => {
+  test('Should success when request page', async (done) => {
     try {
       const res = await agent.get('/').expect('Content-Type', /json/)
 
