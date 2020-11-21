@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "jest",
+    "test": "jest --coverage",
     "dev": "cross-env NODE_ENV=development npx nodemon app.js"
   },
   "keywords": [],
